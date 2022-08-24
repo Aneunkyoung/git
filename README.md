@@ -40,7 +40,15 @@
 2. Team → Share Project → Use or create repository in parent folder of project 클릭 → 프로젝트 클릭 → Finish
 3. 다시 한번 프로젝트 오른쪽 마우스 클릭.
 4. Team → Commit → Add selected files to the index(+ 버튼) → Commit Message: This is Commit Mesasge → Commit and Push
-→ Repository: https://github.com/Aneunkyoung/medicines.git → User: Aneunkyoung , Password:  
-→ Login → 
+→ Repository: https://github.com/Aneunkyoung/medicines.git → User: Aneunkyoung , Password: → Login
 
-> rejected - non-fast-forward 해결
+<br>
+
+> rejected - non-fast-forward 오류 해결
+
+1. Window → Show View → Other → Git Repositories
+2. 저장소 Remotes → origin - github 주소 우클릭 → configure Fetch 
+3. Advanced → 기존에 존재하는 Source Ref Remove(휴지통 클릭) → source ref: master[branch] → Add Spec → Finish → Save and Fetch
+4. Branches → Local - 가지 우클릭 → Merge → Merge
+5. Team → Remote → Push → Next → source ref: master[branch] → Add Spec → Finish
+* 참고: https://hanyda.tistory.com/m/36
