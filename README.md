@@ -42,3 +42,5 @@
 4. Team → Commit → Add selected files to the index(+ 버튼) → Commit Message: This is Commit Mesasge → Commit and Push
 → Repository: https://github.com/Aneunkyoung/medicines.git → User: Aneunkyoung , Password:  
 → Login → 
+
+> rejected - non-fast-forward 해결
